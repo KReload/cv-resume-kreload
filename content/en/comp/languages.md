@@ -1,6 +1,5 @@
 ---
 title: "Programming languages"
-draft: false
 ---
 
 # Langages

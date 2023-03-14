@@ -1,6 +1,6 @@
 ---
 title: "Embedded systems"
-draft: false
+
 ---
 
 # Devlopment board
