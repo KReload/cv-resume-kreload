@@ -1,5 +1,5 @@
 +++
-featured_image = "../qljjBngD8g2r6iDXGxJZ--1--ge6dl.jpg"
+featured_image = "qljjBngD8g2r6iDXGxJZ--1--ge6dl.jpg"
 center = true   
 +++
 
