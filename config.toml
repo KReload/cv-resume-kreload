@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://kreload.github.io/cv-resume-kreload/'
 languageCode = 'fr'
 defaultContentLanguage = 'fr'
 title = 'Billy'
