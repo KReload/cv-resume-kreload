@@ -1,0 +1,3 @@
+[submodule "themes/hugo-kuro-macha"]
+	path = themes/hugo-kuro-macha
+	url = git@github.com:KReload/hugo-kuro-macha.git
