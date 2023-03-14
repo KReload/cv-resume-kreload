@@ -1,6 +1,5 @@
 ---
 title: "Technologies"
-draft: true
 description: "Une liste des technos sur lesquels j'ai pu travailler"
 ---
 

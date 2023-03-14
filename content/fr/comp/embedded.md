@@ -1,6 +1,5 @@
 ---
 title: "Systèmes embarqués"
-draft: true
 ---
 
 # Cartes

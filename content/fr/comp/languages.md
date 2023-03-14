@@ -1,6 +1,5 @@
 ---
 title: "Langages de programmation"
-draft: true
 ---
 
 # Langages
