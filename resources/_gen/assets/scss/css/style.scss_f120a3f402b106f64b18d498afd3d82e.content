@@ -1,0 +1,150 @@
+body {
+  --background: #292a2d;
+  --background-secondary: #d9efd7;
+  --header: #252627;
+  --color: #d9efd7;
+  --color-secondary: #252627;
+  --border-color: #4a4b50; }
+
+nav {
+  --background: #292a2d;
+  --background-secondary: #d9efd7;
+  --header: #252627;
+  --color: #d9efd7;
+  --color-secondary: #252627;
+  --border-color: #4a4b50; }
+
+body {
+  margin: 0;
+  padding-top: 60px;
+  font-family: 'Consolas','Droid Sans Mono';
+  background-color: var(--background);
+  color: var(--background-secondary);
+  align-items: center; }
+
+a {
+  color: var(--color);
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none;
+  background-color: var(--color);
+  color: var(--color-secondary);
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 5px; }
+
+#content {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.posts {
+  margin: auto;
+  width: 50%;
+  text-align: start; }
+
+.post {
+  margin: auto;
+  width: 50%;
+  text-align: start; }
+
+nav {
+  overflow: hidden;
+  background-color: var(--background);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2; }
+  nav ul li {
+    display: inline;
+    font-family: "Consolas", sans-serif;
+    font-size: 17px; }
+  nav a {
+    color: var(--color);
+    text-decoration: none;
+    padding: 5px; }
+    nav a:hover {
+      font-weight: bold; }
+
+.menu {
+  padding-right: 30px; }
+
+.menu-logo {
+  align-self: center;
+  font-size: 30px; }
+
+.social-icon {
+  fill: var(--color);
+  top: 5px;
+  position: relative;
+  background-color: var(--background); }
+  .social-icon:hover {
+    fill: var(--color);
+    background-color: var(--background); }
+  .social-icon svg:hover {
+    fill: grey;
+    transition: 0.5s; }
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: var(--background);
+  padding-top: 10px; }
+
+.header-kuro {
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  background: cover;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column; }
+
+.header-kuro_in {
+  text-align: center;
+  align-items: center;
+  width: 100%; }
+
+.head-alt {
+  color: var(--color-secondary);
+  background-color: var(--background-secondary); }
+
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  font-size: 50px;
+  cursor: pointer; }
+  .up:hover {
+    color: grey;
+    transition: 0.5s;
+    animation: MoveUpDown 1s linear infinite; }
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-10px); } }
+
+.profile-img {
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: var(--background);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  top: -100px; }

@@ -1,0 +1,93 @@
+baseURL = 'http://example.org/'
+languageCode = 'fr'
+defaultContentLanguage = 'fr'
+title = 'Billy'
+theme = "hugo-kuro-macha"
+#theme = "hyde"
+enableEmoji = true
+
+[params]
+  profileImg = "20171115_1856_07.jpg"
+  
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/billy-liang-wei/"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/KReload"
+
+[languages]
+  [languages.fr]
+    title = ""
+    contentDir = 'content/fr'
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.fr.params.logo]
+      logoHomeLink = "/"
+      logoName = "BILLY-LIANG WEI"
+
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "about"
+        name = "À propos"
+        url = "/about"
+        weight = 3
+      [[languages.fr.menu.main]]
+        identifier = "comp"
+        name = "Compétences"
+        url = "/comp"
+        weight = 2
+      [[languages.fr.menu.main]]
+        identifier = "home"
+        name = "Accueil"
+        url = "/"
+        weight = 1
+
+  [languages.en]
+    title = ""
+    contentDir = 'content/en'
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoName = "BILLY-LIANG WEI"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/en/about"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "comp"
+        name = "Skills"
+        url = "/en/comp"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/en/"
+        weight = 1
