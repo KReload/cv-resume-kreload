@@ -5,6 +5,7 @@ title = 'Billy'
 theme = "hugo-kuro-macha"
 themesDir = "themes"
 enableEmoji = true
+canonifyURLs = true
 
 [params]
   profileImg = "20171115_1856_07.jpg"
