@@ -3,7 +3,7 @@ languageCode = 'fr'
 defaultContentLanguage = 'fr'
 title = 'Billy'
 theme = "hugo-kuro-macha"
-#theme = "hyde"
+themesDir = "themes"
 enableEmoji = true
 
 [params]
