@@ -2,7 +2,7 @@
 
 A website describing my resume.
 
-Available at: https://kreload.github.io/cv-resume-kreload/
+Available at: https://kreload.github.io/
 
 # Pre-requirements
 
